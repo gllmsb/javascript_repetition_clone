@@ -1,0 +1,15 @@
+//*HELPERS
+@use './helpers/variables' as *;
+
+//*COMPONENTS
+@use './components/navbar';
+@use './components/hr';
+@use './components/catFacts';
+
+//*FONTS
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+font-family: $raleway;
+background-color: $light-coral;
+}

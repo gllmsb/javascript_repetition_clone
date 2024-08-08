@@ -1,0 +1,9 @@
+@use '../helpers/variables' as *;
+
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: $coral;
+    margin: 1rem;
+}
