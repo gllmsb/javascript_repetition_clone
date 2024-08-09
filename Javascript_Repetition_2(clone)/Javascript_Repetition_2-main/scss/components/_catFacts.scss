@@ -41,23 +41,4 @@
         background-color: darken($coral, 10%); 
       }
     }
-  
-    button {
-      background-color: $coral; 
-      color: $beige;
-      text-shadow: $outline;
-      margin-top: 30px;
-      border: none;
-      padding: 12px 24px;
-      font-size: 20px;
-      border-radius: 15px;
-      cursor: pointer;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      transition: background-color 0.8s ease;
-      
-  
-      &:hover {
-        background-color: darken($coral, 10%); 
-      }
-    }
   }
